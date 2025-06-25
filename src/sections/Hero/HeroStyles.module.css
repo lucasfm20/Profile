@@ -60,7 +60,7 @@ span{
 .colorMode {
     position: absolute;
     right: 0;
-    width: 25px;
+    width: 40px;
 }
 
 .colorMode :hover{
