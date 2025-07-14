@@ -1,10 +1,12 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/react.svg";
 import weatherIcon from "../../assets/weather.jpeg"
 import typeFaster from "../../assets/typeFaster.jpeg"
 import medical from "../../assets/medical.jpeg"
+import toDoLIst from "../../assets/toDoList.jpeg"
+import stock from "../../assets/stock.jpeg"
 import ProjectCard from "../../common/ProjectCard";
+
 
 function Projects() {
   return (
@@ -28,6 +30,18 @@ function Projects() {
         link={"https://github.com/lucasfm20/ProjDesingPatterns"}
         h3="Medical API"
         p={"Java"}
+      ></ProjectCard>
+      <ProjectCard
+        src={toDoLIst}
+        link={"https://github.com/lucasfm20/ToDoList-Python"}
+        h3="To do List"
+        p={"Python"}
+      ></ProjectCard>
+      <ProjectCard
+        src={stock}
+        link={"https://github.com/lucasfm20/automacaoAcao"}
+        h3="Stock market automation"
+        p={"Python"}
       ></ProjectCard>
 
       </div>
