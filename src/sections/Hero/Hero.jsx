@@ -5,7 +5,7 @@ import profile from "../../assets/desenho.png";
 import github from "../../assets/github-blue.png";
 import linkedin from "../../assets/linkedinBlue.png";
 import bulb from "../../assets/sun.png"
-import pdf from "../../assets/curículo_LucasFM.docx.pdf"
+import pdf from "../../assets/curriculoFinal.pdf"
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
